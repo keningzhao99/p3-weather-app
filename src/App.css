@@ -1,0 +1,116 @@
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9e0c8; /* Very light orange background */
+  color: #3a30a1; /* Dark grey text color */
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Weather container styles */
+.weather-container,
+.news-container {
+  width: 48%;
+  background-color: #fff; /* White background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Weather header styles */
+.weather-container h2,
+.news-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark grey header text */
+}
+
+/* Weather details styles */
+.weather-details {
+  margin-bottom: 20px;
+}
+
+.weather-details p {
+  margin: 5px 0;
+  color: #555; /* Light grey text color */
+}
+
+.weather-details img {
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* News list styles */
+.news-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* News item styles */
+.news-item {
+  border-bottom: 1px solid #ccc; /* Light grey border bottom */
+  padding: 20px 0;
+}
+
+.news-item h3 {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #333; /* Dark grey title color */
+}
+
+.news-item p {
+  margin: 5px 0;
+  color: #555; /* Light grey text color */
+}
+
+.news-item img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.news-item a {
+  color: #ff7f00; /* Orange link color */
+  text-decoration: none;
+}
+
+/* Button styles */
+button {
+  background-color: #ff7f00; /* Orange button color */
+  color: #3a30a1; /* White button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc6600; /* Darker orange on hover */
+}
+
+/* Input styles */
+input[type="text"] {
+  width: calc(100% - 24px);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc; /* Light grey border */
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+  border-color: #ff7f00; /* Orange border color on focus */
+  outline: none;
+}

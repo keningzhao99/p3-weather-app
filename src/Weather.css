@@ -1,0 +1,23 @@
+/* Weather component styles */
+
+.weather-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.current-weather {
+  background-color: #fff; /* White background for current weather */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.hourly-forecast,
+.daily-forecast {
+  background-color: #fff; /* White background for hourly and daily forecast */
+  padding: 20px;
+  margin-left: 20px; /* Add some spacing between sections */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
